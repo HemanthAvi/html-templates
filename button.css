@@ -1,0 +1,27 @@
+.button{
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    color: #174ea6;
+    border-radius: 4px;
+    min-width: 143px;
+    min-height: 36px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: rgba(26, 115, 232, 0.04);
+}
+
+.button--primary {
+    color: #fff;
+    background: #1a73e8;
+}
+
+.button--primary:hover {
+    background: #1c66ca;
+}
+
+.button--label{
+    border: 0;
+    min-width: auto;
+}

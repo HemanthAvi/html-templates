@@ -1,0 +1,98 @@
+.pricing-item{
+    width: 264px;
+    height: 502px;
+    box-shadow: 0 1px 6px rgb(60 64 67 / 30%) ;
+    margin: 12px;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 14px;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+}
+
+.pricing-item--recommended{
+    background: linear-gradient(
+        90deg,#34a853 4%,#4285f4 0%) top/100% 34% no-repeat,linear-gradient(
+        90deg,#fbbc04 50%,#4285f4 0%) top/100% 82% no-repeat,linear-gradient(
+        90deg,#fbbc04 10%,#ea4335 0%) top/100% 100%;
+}
+
+.pricing-item__inner-container{
+    background: #fff;
+    margin: 4px;
+    border: 4px;
+    height: calc(100% - 8px);
+    border-radius: 8px;
+}
+
+.pricing-item__top-part{
+    height: 310px;
+    text-align: center;
+}
+
+.pricing-item__storage-size{
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+.pricing-item__bottom-part{
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 20px 6px 24px 14px;
+}
+
+.pricing-item__free-label{
+    font-size: 18px;
+}
+
+.pricing-item__prices{
+    margin-top: 25px;
+}
+
+.pricing-item__year-save-label{
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+
+.pricing-item__store-credit{
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 8px 5px;
+    text-align: left;
+}
+
+.pricing-item__store-credit img{
+    height: 23px;
+    width: 24px;
+    margin-right: 12px;
+}
+
+.pricing-item__recommended-label{
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.pricing-item__recommended-label + .pricing-item__storage-size{
+    padding-top: 23px;
+}
+
+.pricing-item__includes-label{
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.pricing-item__features-list{
+    margin-left: 8px;
+}
+
+.pricing-item__checkmark{
+    display: inline;
+    color: #4285f4;
+    margin-right: 16px;
+}
+
+.pricing-item__feature{
+    padding: 4px 0;
+}
